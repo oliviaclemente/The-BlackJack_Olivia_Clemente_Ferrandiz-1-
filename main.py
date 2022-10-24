@@ -26,3 +26,7 @@ for c in sorted(carta.keys()):
     print("la carta {} vale {}".format(c, carta[c]))
 print("Black Jack")
 lista_cartas = list(carta)
+print("Selecciona:", end=" ")
+c = choice(lista_cartas)
+score = carta[c]
+print(c, end=" ")
