@@ -35,3 +35,4 @@ score += carta[c]
 print(carta, end=" ")
 print("La puntuación máxima obtenida es de ", score)
 main_b = sample(lista_cartas, 2)
+score_b = sum(carta[c] for c in main_b)
