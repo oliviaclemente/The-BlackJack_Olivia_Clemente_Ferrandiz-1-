@@ -30,3 +30,7 @@ print("Selecciona:", end=" ")
 c = choice(lista_cartas)
 score = carta[c]
 print(c, end=" ")
+c = choice(lista_cartas)
+score += carta[c]
+print(carta, end=" ")
+print("La puntuación máxima obtenida es de ", score)
