@@ -34,3 +34,4 @@ c = choice(lista_cartas)
 score += carta[c]
 print(carta, end=" ")
 print("La puntuación máxima obtenida es de ", score)
+main_b = sample(lista_cartas, 2)
